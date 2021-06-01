@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="1dp"
+        android:layout_width="fill_parent"
+        tools:text="Title"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        tools:text="Description"/>
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        tools:text="Categorie"/>
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:layout_width="fill_parent"
+        tools:text="Url"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Voir la vidéo"
+        />
+</LinearLayout>
